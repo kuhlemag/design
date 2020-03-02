@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.navbar ul{
+  list-style: none;
+    text-align: center;
+
+}
+.navbar ul li{
+  display: inline-grid;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color:black;
+    padding: 10px;
+}
+.logo{
+  height: 10px;
+}
+.navbar{
+  background-image: url("../images/life.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+.intro{
+  text-align: center;
+  margin-top: 120px;
+
+
+}
+.intro h2{
+  font-size: 40px;
+  color: #f4b847;
+}
+.team h2{
+  text-align: center;
+  font-size: 35px;
+}
+.team{
+  text-align: center;
+  padding: 2px;
+  margin-bottom: : 40px;
+}
+.team{
+  display: grid;
+  grid-column-gap: 90px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 10px;
+
+}
+.greatminds img{
+    height: 179px;
+}
+.greatminds {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-column-gap: 50px;
+}
